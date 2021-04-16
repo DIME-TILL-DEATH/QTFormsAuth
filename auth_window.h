@@ -20,7 +20,7 @@ public:
 
 signals:
     void loginButtonClicked();
-    void registerButtonClicked();
+    void authRegisterButtonClicked();
 
 private slots:
     void on_editName_textEdited(const QString &arg1);

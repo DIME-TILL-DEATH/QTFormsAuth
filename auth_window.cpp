@@ -30,7 +30,7 @@ void auth_window::on_pushButtonLogIn_clicked()
 
 void auth_window::on_pushButtonRegister_clicked()
 {
-    emit registerButtonClicked();
+    emit authRegisterButtonClicked();
 }
 
 QString auth_window::getLogin()
